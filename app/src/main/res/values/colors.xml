@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color> <!--toolbar-->
+    <color name="colorPrimaryDark">#78909c</color> <!--notificationbar-->
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroundColor">#eef3f9</color>
+    <color name="cardViewBackground">#eef3f9</color>
+    <color name="hintColor">#37474f</color>
+    <color name="buttonBackgroundColor">#00897b</color>
+    <color name="Blue">#0066b3</color>
+    <color name="Yellow">#FAC834</color>
+    <color name="Green">#9CDC52</color>
+    <color name="dividerLineColor">#C8D3F8</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cardviewcolor">#eef3f9</color>
+    <color name="lightblack">#504F4F</color>
+</resources>

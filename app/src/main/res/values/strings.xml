@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">employee-management</string>
+    <string name="employee_manage_system">Employee Management System</string>
+    <string name="employee_list">Employee List</string>
+    <string name="profile">Profile</string>
+    <!--for drawlaout string parameter-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="create_employee">Create Employee</string>
+</resources>

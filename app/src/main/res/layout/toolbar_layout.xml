@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="?attr/actionBarSize"
+    android:id="@+id/toolbar"
+    app:theme="@style/MyToolbarStyle"
+    android:elevation="5dp"
+    app:popupTheme="@style/MyPopuPToolbarStyle">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/employee_list"
+        android:textColor="@color/Blue"
+        android:textSize="30sp"
+        android:fontFamily="@font/titillium_semibold"
+        android:layout_gravity="center"/>
+
+
+</androidx.appcompat.widget.Toolbar>

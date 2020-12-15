@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group
+        android:id="@+id/group_employee"
+        android:checkableBehavior="none">
+        <item android:id="@+id/nav_add_employee"
+            android:icon="@drawable/add_person_icon"
+            android:title="Add Employee"
+            />
+    </group>
+    <group
+        android:id="@+id/group_import"
+        >
+        <item android:title="Import">
+            <menu>
+                <item android:id="@+id/nav_import_csv"
+                    android:icon="@drawable/export_csv_icon"
+                    android:title="Import CSV file"/>
+
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group_export"
+        >
+        <item android:title="Export">
+            <menu>
+            <item android:id="@+id/nav_export_csv"
+                android:icon="@drawable/import_csv_icon"
+                android:title="Export as CSV file"/>
+            </menu>
+        </item>
+    </group>
+</menu>
